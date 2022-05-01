@@ -1,0 +1,88 @@
+body{
+  margin: 0;
+  padding: 0;
+  /* background: url('https://static.vecteezy.com/system/resources/thumbnails/003/184/675/original/purple-neon-border-with-flare-on-the-top-background-free-video.jpg') center / cover no-repeat; */
+  /* height: 100vh;
+  width: 100%; */
+}
+.container{
+  margin-top: 10%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.regis{
+  position: relative;
+  background: rgb(203,16,122);
+  background: linear-gradient(90deg, rgba(203,16,122,1) 0%, rgba(121,9,112,1) 35%, rgba(85,63,180,1) 66%, rgba(0,212,255,1) 100%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  border-radius: 5px;
+  width: 450px;
+  height: 400px;
+}
+.regis h1{
+  color: whitesmoke;
+  padding-bottom: 3%;
+}
+.reg_card div input{
+  color: black;
+  width: 250px;
+  height: 30px;
+  padding-left: 10px;
+  margin-bottom: 15px;
+  border: 2px solid blue;
+  border-radius: 5px;
+  background: #f3f3f3;
+  outline: none;
+}
+.foot{
+  display: flex;
+  flex-direction: column;
+  margin-top: 2%;
+  margin-left: 20%;
+}
+.btn_submit{
+  width: 150px;
+  height: 30px;
+  cursor: pointer;
+  border: 1px solid darkblue;
+  border-radius: 5px;
+  background: whitesmoke;
+  color: rgb(2, 162, 194);
+  transition: .5s;
+}
+.btn_submit:hover{
+  border:1px solid whitesmoke;
+  background-color: rgb(2, 162, 194);
+  color: whitesmoke;
+}
+.foot a{
+  margin-top: 6%;
+  margin-left: 9% ;
+  color: whitesmoke;
+  text-decoration: none;
+  transition: .5s;
+}
+.foot a:hover{
+  color: rgb(80, 216, 159);
+}
+.see_password{
+  position: absolute;
+  right: 7.2em;
+  width: 65px;
+  height: 30px;
+  margin-top: 3px;
+  border-radius: 5px;
+  background-color: rgb(16, 145, 204); 
+  color: white;
+  border: 1px solid white;
+  transition: .5s;
+}
+.see_password:hover{
+  transform: scale(1.1);
+  background-color: rgb(203,16,122);
+  border: solid 1px rgb(16, 145, 204);
+}

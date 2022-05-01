@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="/less_css/register.css">
+  <title>Register</title>
+</head>
+<body>
+    <div class="container">
+      <div class="regis">
+        <h1> Регистрация </h1>
+        <form class="reg_card">
+          <div>
+            <input type="text" placeholder="Name" class="name_inp">
+          </div>
+          <div>
+            <input type="email" placeholder="Email" class="email"> 
+          </div>
+          <div>
+            <input type="password" placeholder="Password" class="password" pattern="(?=^.{8,}$)((?=.*\d)|(?=.*\W+))(?![.\n])(?=.*[A-Z])(?=.*[a-z]).*$"> 
+            <button type="reset" class="see_password"> показать </button>
+          </div>
+          <div class="foot">
+            <button type="submit" class="btn_submit"> Отправить </button>
+            <a href="/login.html">Уже есть аккаунт?</a>
+          </div>
+        </form>
+      </div>
+    </div>
+  <script src="/less_js/register.js"></script>
+</body>
+</html>
